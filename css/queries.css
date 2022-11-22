@@ -1,0 +1,32 @@
+@media (max-width: 46em) {
+  html {
+    /* 8px / 16px = 0.56 = 56.25% */
+    font-size: 48%;
+  }
+
+  .btn:link,
+  .btn:visited {
+    font-size: 1.4rem;
+    font-weight: 600;
+    padding: 1.4rem 8rem;
+  }
+}
+
+@media (max-width: 32em) {
+  .container {
+    display: grid;
+    grid-template-columns: 1fr;
+    max-width: 34rem;
+  }
+
+  .subscription {
+    align-self: center;
+    border-radius: 0;
+    padding: 2rem;
+  }
+
+  .btn:link,
+  .btn:visited {
+    padding: 1.4rem 10rem;
+  }
+}
